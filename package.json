@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "bluetixsmartcontract",
   "version": "1.0.0",
   "description": "",
@@ -9,8 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "@openzeppelin/contracts": "^4.9.3",
     "dotenv": "^16.3.1",
     "hardhat": "^2.17.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "ethers": "^6.7.1",
+    "mocha": "^10.2.0"
   }
 }
